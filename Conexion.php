@@ -1,13 +1,12 @@
 <?php
 
-    $host = "localhost";
-    $user = "root";
-    $pass = "";
+$host = "localhost";
+$user = "root";
+$pass = "";
+$bd = "login-sena";
 
-    $bd = "login-sena";
+$conexion = mysqli_connect($host, $user, $pass, $bd);
 
-    $conexion = mysqli_connect($host, $user, $pass, $bd);
-
-    if (!$conexion) {
-        echo "Conexion fallida";
-    }
+if (!$conexion) {
+    echo "Conexion fallida";
+}
