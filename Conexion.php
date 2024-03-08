@@ -8,6 +8,6 @@
 
     $conexion = mysqli_connect($host, $user, $pass, $bd);
 
-    if (!$Conexion) {
+    if (!$conexion) {
         echo "Conexion fallida";
     }
