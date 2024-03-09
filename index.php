@@ -24,11 +24,9 @@
         ?>
         <form action="IniciarSesion.php" method="POST">
             <div class="form-group">
-                <label for="username">Usuario</label>
                 <input type="text" id="username" name="username" placeholder="Usuario" required>
             </div>
             <div class="form-group">
-                <label for="password">Clave</label>
                 <input type="password" id="password" name="password" placeholder="Contraseña" required>
             </div>
             <button class="button1">Acceder</button>
